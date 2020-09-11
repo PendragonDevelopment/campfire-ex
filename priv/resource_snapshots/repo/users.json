@@ -1,0 +1,48 @@
+{
+  "attributes": [
+    {
+      "allow_nil?": false,
+      "default": "false",
+      "name": "admin",
+      "primary_key?": false,
+      "references": null,
+      "type": "boolean"
+    },
+    {
+      "allow_nil?": false,
+      "default": "nil",
+      "name": "email",
+      "primary_key?": false,
+      "references": null,
+      "type": "text"
+    },
+    {
+      "allow_nil?": true,
+      "default": "nil",
+      "name": "first_name",
+      "primary_key?": false,
+      "references": null,
+      "type": "text"
+    },
+    {
+      "allow_nil?": true,
+      "default": "nil",
+      "name": "id",
+      "primary_key?": true,
+      "references": null,
+      "type": "binary_id"
+    },
+    {
+      "allow_nil?": true,
+      "default": "nil",
+      "name": "last_name",
+      "primary_key?": false,
+      "references": null,
+      "type": "text"
+    }
+  ],
+  "hash": "399373830496B6CD44828C0231717368B10BAE1149F6AB7FD9B4A60C1C52D5C9",
+  "identities": [],
+  "repo": "Elixir.Campfire.Repo",
+  "table": "users"
+}
